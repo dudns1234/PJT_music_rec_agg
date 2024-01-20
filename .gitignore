@@ -342,3 +342,16 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,macos,visualstudiocode,django,python
+
+# Airflow
+airflow-webserver.pid
+airflow.db
+airflow.cfg
+webserver_config.py
+logs
+
+# Kafka - spark streaming
+.checkpoint
+
+# fluent
+fluent.conf
