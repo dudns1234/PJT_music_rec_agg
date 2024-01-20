@@ -1,7 +1,7 @@
 from datetime import datetime, timedelta
 from airflow import DAG
 from airflow.operators.python import PythonOperator
-from sample.gmm import gmm_model 
+from my_package.gmm import gmm_model 
 
 default_args = {
     "start_date" : datetime(2023, 12, 21)
