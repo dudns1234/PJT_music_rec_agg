@@ -6,7 +6,7 @@ from airflow.providers.apache.spark.operators.spark_submit import SparkSubmitOpe
 
 # from airflow.operators.bash import BashOperator
 
-from sample.save import read_csv_and_store_in_mysql
+from my_package.save import read_csv_and_store_in_mysql
 from airflow.operators.python import PythonOperator
 
 default_args = {
