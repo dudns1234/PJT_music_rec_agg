@@ -4,10 +4,10 @@ from airflow import DAG
 from airflow.providers.mysql.operators.mysql import MySqlOperator
 from airflow.operators.python import PythonOperator
 
-from sample.korea_top50_track_extract import get_spotify_korea_top50_track
-from sample.korea_top50_artist_extract import get_spotify_korea_top50_artist
-from sample.korea_top50_audio_extract import get_spotify_korea_top50_audio
-from sample.save import top50_result_in_mysql
+from my_package.korea_top50_track_extract import get_spotify_korea_top50_track
+from my_package.korea_top50_artist_extract import get_spotify_korea_top50_artist
+from my_package.korea_top50_audio_extract import get_spotify_korea_top50_audio
+from my_package.save import top50_result_in_mysql
 
 default_args = {
     "start_date" : datetime(2023, 12, 21)
