@@ -355,3 +355,41 @@ logs
 
 # fluent
 fluent.conf
+
+# Kafka
+bin/
+licenses/
+config/server.properties
+LICENSE
+NOTICE
+
+# Opensearch
+config/
+data/
+logs/
+lib/
+modules/
+performance-analyzer-rca/
+plugins/
+LICENSE.txt
+manifest.yml
+opensearch-tar-install.sh
+README.md
+assets/
+node/
+node_modules/
+.i18nrc.json
+NOTICE.txt
+package.json
+
+# Spark
+conf/
+data/
+examples/
+jars/
+kubernetes/
+licenses/
+R/
+sbin/
+yarn/
+RELEASE
